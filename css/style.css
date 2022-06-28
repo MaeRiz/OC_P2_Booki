@@ -1,0 +1,34 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Raleway", serif;
+  }
+
+/* Desktop */
+@media screen and (min-width: 992px) {
+
+    body{
+        background-color: black;
+    }
+    
+}
+
+/* Tablet */
+@media screen and (max-width: 991px) and (min-width: 767px) {
+
+    body{
+        background-color: brown;
+    }
+    
+}
+
+/* Smartphone */
+@media screen and (max-width: 768px) {
+
+    body{
+        background-color: blue;
+    }
+    
+}
