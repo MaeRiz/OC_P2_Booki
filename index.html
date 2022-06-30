@@ -3,15 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="https://fonts.google.com/specimen/Raleway">
     <script src="https://kit.fontawesome.com/bb1f6f90ac.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="./css/desktop.css">
+    <link rel="stylesheet" media="screen and (max-width: 992px)" href="./css/tablet.css" />
+    <link rel="stylesheet" media="screen and (max-width: 768px)" href="./css/mobile.css" />
     <title>Booki</title>
 </head>
 <body>
     <header>
-
         <nav id="menu">
             <a href="index.html"><img src="./assets/logo/Booki.png" alt="Booki logo"></a>
             <ul>
@@ -27,7 +28,7 @@
 
             <form id="search-bar" action="">
                 <i class="fa-solid fa-location-dot"></i>
-                <input type="text" id="search" name="search" value="Marseille, France">
+                <input type="text" id="search" name="search" placeholder="Marseille, France">
                 <input type="submit" id="submit" value="Rechercher">
             </form>
         </div>
