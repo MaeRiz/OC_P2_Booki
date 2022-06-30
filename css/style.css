@@ -3,32 +3,150 @@
 }
 
 body {
-    font-family: "Raleway", serif;
-  }
+    font-family: "Raleway", sans-serif;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
 
 /* Desktop */
 @media screen and (min-width: 992px) {
 
-    body{
-        background-color: black;
+    /* Header */
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 30px 50px 30px 50px;
+    }
+
+    nav ul {
+        display: flex;
+        list-style: none;
+    }
+
+    nav li a {
+        margin: 0 40px 0 40px;
+        text-decoration: none;
+        color: rgb(58, 58, 58);
+        transition: 0.3s;
     }
     
+    nav li a:hover {
+        color: #0065FC;
+        border-top: 3px solid #0065FC;
+        padding: 56px 0 0 0 ;
+    }
+
+
+    nav img {
+        max-width: 150px;
+    }
+    
+    /* Main */
+
+    main {
+        margin: 10px 50px 0 50px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+
+    }
+
+    main h6 {
+        font-size: 25px;
+        margin: 0 0 5px 0;
+    }
+
+    main p {
+        font-size: 22px;
+        margin: 0;
+    }
+
+    /* Search bar */
+
+    #search-bar {
+        display: flex;
+        margin-top: 15px;
+    }
+
+    #search-bar i {
+        background-color: #F2F2F2;
+        padding: 20px;
+        border-radius: 15px 0 0 15px;
+        font-size: 20px;
+        width: 60px;
+    }
+
+    #search {
+        border: 1px solid #F2F2F2;
+        padding-left: 15px;
+        font-size: 20px;
+        font-weight: 550;
+        width: 270px;
+    }
+
+    #submit {
+        color: white;
+        background-color: #0065FC;
+        border: 0 solid;
+        border-radius: 0 15px 15px 0;
+        width: 146px;
+        font-size: 20px;
+        font-weight: 550;
+    }
+    #submit:hover {
+        background-color: #3686fd;
+        cursor: pointer;
+    }
+
+    /* Filters */
+    #filters {
+        display: flex;
+        margin-top: 30px;
+        margin-left: 10px;
+        align-items: center;
+
+    }
+
+    .filter-item {
+        margin-left: 30px;
+        border: 2px solid #d4d4d4;
+        border-radius: 30px;
+        border-left: 0;
+    }
+
+
+    .filter-item i {
+        background-color: #DEEBFF;
+        padding: 15px;
+        border-radius: 100%;
+        color: #0065FC;
+        margin-right: 15px;
+        width: 50px;
+        height: 50px;
+        text-align: center;
+    }
+
+    .filter-item p {
+        padding-right: 15px;
+    }
+
+    #filters p {
+        font-size: 20px;
+        font-weight: 550;
+        color: black;
+    }
 }
 
 /* Tablet */
 @media screen and (max-width: 991px) and (min-width: 767px) {
 
-    body{
-        background-color: brown;
-    }
-    
 }
 
 /* Smartphone */
 @media screen and (max-width: 768px) {
 
-    body{
-        background-color: blue;
-    }
-    
 }
