@@ -132,6 +132,10 @@ main p {
 
 }
 
+#filter-items {
+    display: flex;
+}
+
 .filter-item {
     margin-left: 30px;
     border: 2px solid #d4d4d4;
@@ -334,7 +338,7 @@ main p {
 
 #activities {
     margin-top: 15px;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 .act {
@@ -361,8 +365,7 @@ main p {
     display: flex;
     justify-content: space-between;
     width: 100%;
-    height: 450px;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 
 
