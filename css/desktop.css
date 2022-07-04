@@ -43,14 +43,16 @@ nav li {
     justify-content: center;
     align-items: center;
 }
-
-nav li:hover {
-    border-top: 2px solid #0065FC;
-
+@media only screen and (min-width: 769px){
+    nav li:hover {
+        border-top: 2px solid #0065FC;
+    
+    }
+    nav li:hover a {
+        color: #0065FC;
+    }
 }
-nav li:hover a {
-    color: #0065FC;
-}
+
 nav li a {
     text-decoration: none;
     color: rgb(58, 58, 58);
@@ -110,7 +112,11 @@ main p {
     width: 220px;
 }
 
-#submit {
+.sub-icon {
+    visibility: collapse;
+}
+
+.submit {
     color: white;
     background-color: #0065FC;
     border: 0 solid;
@@ -118,7 +124,7 @@ main p {
     width: 146px;
     font-size: 18px;
 }
-#submit:hover {
+.submit:hover {
     background-color: #3686fd;
     cursor: pointer;
 }
