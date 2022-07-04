@@ -113,7 +113,7 @@ main p {
 }
 
 .sub-icon {
-    visibility: collapse;
+    display: none;
 }
 
 .submit {

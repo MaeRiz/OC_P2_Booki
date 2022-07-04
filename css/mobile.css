@@ -86,11 +86,11 @@ main {
 }
 
 .sub-icon {
-    visibility: visible;
+    display: block;
     width: 50px;
     border-radius: 15px;
 }
 
 .sub-text {
-    visibility: collapse;
+    display: none;
 }
