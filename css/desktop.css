@@ -317,42 +317,40 @@ main p {
 }
 
 .act {
-    background-color: red;
     width: 320px;
     height: 500px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 15px -2px rgba(0,0,0,0.2);
+}
+
+.act:hover {
+    transition: 0.2s;
+    box-shadow: 0px 0px 50px -2px rgba(0,0,0,0.2);
+    cursor: pointer;
 }
 
 .mosaic {
     display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
+    justify-content: space-between;
     width: 100%;
     height: 450px;
+    margin-bottom: 50px;
 }
 
-.act:last-child {
-    position: relative;
-}
-
-.act:last-child::after {
-    display: block;
-    width: 11px;
-    height: 1px;
-    position: absolute;
-    top: 0;
-    left: 100%;
-    visibility: hidden;
-    content: "";
-}
 
 .act--small {
-    height: 70px;
-    background-color: yellow;
+    height: 180px;
 }
 
 .act--medium {
-    height: 90px;
-    background-color: orange;
+    height: 270px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 500px;
 }
 
 
