@@ -9,6 +9,7 @@ body {
 
 a {
     text-decoration: none;
+    color: black;
 }
 
 
@@ -156,13 +157,14 @@ main p {
 
 .filter-item i {
     background-color: #DEEBFF;
-    padding: 15px;
+    padding: 12px;
     border-radius: 100%;
     color: #0065FC;
     margin-right: 15px;
-    width: 50px;
-    height: 50px;
+    width: 45px;
+    height: 45px;
     text-align: center;
+    margin-left: -2px;
 }
 
 .filter-item p {
@@ -204,6 +206,10 @@ main p {
     width: 100%;
     display: flex;
     justify-content: space-between;
+}
+
+#results-sec a, #activities a {
+    display: contents;
 }
 
 #results-sec h5 {

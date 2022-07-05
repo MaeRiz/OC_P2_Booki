@@ -89,6 +89,7 @@ main {
     display: block;
     width: 50px;
     border-radius: 15px;
+    margin-left: -15px;
 }
 
 .sub-text {
